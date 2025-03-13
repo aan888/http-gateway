@@ -1,0 +1,20 @@
+{
+  "port": 8080,
+  "services": [
+    {
+      "name": "user-service",
+      "rpc_addr": "localhost:50051",
+      "endpoint": "/users"
+    },
+    {
+      "name": "product-service",
+      "rpc_addr": "localhost:50052",
+      "endpoint": "/products"
+    },
+    {
+      "name": "order-service",
+      "rpc_addr": "localhost:50053",
+      "endpoint": "/orders"
+    }
+  ]
+}
